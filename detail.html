@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ecommerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sawarabi+Gothic&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="header-section">
+        <div class="container">
+            <header class="navbar">
+                <div class="logo">
+                    <img src="../store/images/logo.png" alt="logo">
+                </div>
+                <nav>
+                    <ul id="MenuItms">
+                        <li><a href="index.html">Acueil</a></li>
+                        <li><a href="product.html">Produits</a></li>
+                        <li><a href="account.html">Compte</a></li>
+                        <li><a href="about.html">Apropos</a></li>
+                        <li><a href="contact.hml">Contact</a></li>
+                    </ul>
+                    <img src="../store/images/cart.PNG" alt="cart icon" width="23px">
+                    <img src="../store/images/menu-icon.png" class="menu-icon" width="23px" onclick="menutoggle()">
+                </nav>
+            </header>
+            <!--single product detail-->
+            <section>
+                <div class="container single-product">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="../store/images/pul1.png" alt="landing image" width="100%">
+                            <div class="small-img-row">
+                                
+                              <!--  <div class="small-img-col">
+                                    <img src="../store/images/pull2.png" alt="landing image" width="100%">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="../store/images/pull3.png" alt="landing image" width="100%">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="../store/images/pull4.png" alt="landing image" width="100%">
+                                </div>-->
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <p>Home/ T-shirt</p>
+                            <h1>printed t-shirt by HRX</h1>
+                            <h4>Price: 3500 FCFA</h4>
+                            <select name="" id="">
+                                <option value="">select size</option>
+                                <option value="">XXL</option>
+                                <option value="">XL</option>
+                                <option value="">X</option>
+                                <option value="">Meduim</option>
+                                <option value="">Small</option>
+                            </select>
+                            <input type="number" value="1">
+                            <button class="btn">Add tocart</button>
+                            <h3>Product Details<i class="fa fa-indent"></i> </h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Eos tempora id unde autem nobis iusto culpa obcaecati ratione
+                                temporibus labore, natus iste dolores dolor
+                                repellendus repellat architecto a doloribus enim.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--section categories-->
+            <section class="categories">
+                <div class="container">
+                    <h2>Top Categories</h2>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="../store/images/produit-6.png" alt="categories vidette">
+                        </div>
+                        <div class="col-3">
+                            <img src="../store/images/produit-4.png" alt="categories vidette">
+                        </div>
+                        <div class="col-3">
+                            <img src="../store/images/produit-10.png" alt="categories vidette">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--section meilleurs Produits-->
+            <section class="featured-products">
+                <div class="container">
+                    <h2>Nos meilleurs Produits</h2>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="../store/images/categorie-1.png" alt="featured products">
+                            <h3>T-shirt rouge</h3>
+                            <div class="rating">
+                                <i clas="fa fa-star" aria-hidden="true"></i>
+                                <i clas="fa fa-star" aria-hidden="true"></i>
+                                <i clas="fa fa-star" aria-hidden="true"></i>
+                                <i clas="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i clas="fa fa-star-o"></i>
+                            </div>
+                            <p>5000 Fcfa</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="../store/images/produit-7.png" alt="featured products">
+                            <h3>T-shirt rouge</h3>
+                            <p>6500 Fcfa</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="../store/images/produit-9.png" alt="featured products">
+                            <h3>T-shirt rouge</h3>
+                            <p>5000 Fcfa</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="../store/images/produit-8.png" alt="featured products">
+                            <h3>T-shirt rouge</h3>
+                            <p>6000 Fcfa</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!--footer section-->
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col-1">
+                            <h3>Download our App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. similique.</p>
+                            <div class="app-logo">
+                                <img src="images/playstore.png">
+                                <img src="images/appstore.png">
+                            </div>
+                        </div>
+                        <div class="footer-col-2">
+                            <div class="app-logo">
+                                <img src="images/playstore.png">
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur .</p>
+                        </div>
+
+                        <div class="footer-col-4">
+                            <h3>folow us</h3>
+                            <ul>
+                                <li>facbook</li>
+                                <li>youtube</li>
+                                <li>istagramme</li>
+                                <li>twiter</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="copyright">copyright-2024</p>
+                </div>
+            </div>
+            <!--js for toggle menu-->
+            <script>
+                var MenuItems = document.getElementById("MenuItems");
+                MenuItems.style.maxHeight = "0px";
+                function menutoggle() {
+                    if (MenuItems.style.maxHeight == "0px") {
+                        MenuItems.style.maxHeight = "200px";
+                    }
+                    else {
+                        MenuItems.style.maxHeight = "0px";
+                    }
+                }
+            </script>
+</body>
+
+</html>
